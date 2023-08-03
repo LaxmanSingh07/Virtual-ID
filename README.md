@@ -34,25 +34,28 @@ To run the Virtual-ID application locally, follow these steps:
 ## Timeline
 
 - **Week 1: Project Setup and Planning**
-    - Define the project scope and features.
-    - Design the user interface and create wireframes/mockups.
-    - Set up the MERN stack environment.
+
+  - Define the project scope and features.
+  - Design the user interface and create wireframes/mockups.
+  - Set up the MERN stack environment.
 
 - **Week 2: AR Integration and Front-end Development**
-    - Implement AR functionality using AR.js (or A-Frame).
-    - Develop front-end components for room visualization and furniture selection.
-    - Create basic layouts for the home screen, furniture catalog, and room editor.
+
+  - Implement AR functionality using AR.js (or A-Frame).
+  - Develop front-end components for room visualization and furniture selection.
+  - Create basic layouts for the home screen, furniture catalog, and room editor.
 
 - **Week 3: Back-end Development and Database Integration**
-    - Set up the backend server using Node.js and Express.js.
-    - Implement RESTful APIs for user authentication, furniture catalog, and room saving.
-    - Integrate MongoDB to store furniture data and user-created room designs.
+
+  - Set up the backend server using Node.js and Express.js.
+  - Implement RESTful APIs for user authentication, furniture catalog, and room saving.
+  - Integrate MongoDB to store furniture data and user-created room designs.
 
 - **Week 4: Testing and Refinement**
-    - Perform comprehensive testing to identify and fix bugs or issues.
-    - Optimize the application's performance and responsiveness.
-    - Add polish to the user interface and improve the user experience.
-    - Conduct user testing to gather feedback for further refinements.
+  - Perform comprehensive testing to identify and fix bugs or issues.
+  - Optimize the application's performance and responsiveness.
+  - Add polish to the user interface and improve the user experience.
+  - Conduct user testing to gather feedback for further refinements.
 
 ## Contributions
 
@@ -60,10 +63,10 @@ We welcome contributions from the open-source community to enhance and expand Vi
 
 ## Team
 
-- 
+-
 
 ## License
 
 This project is licensed under the [MIT License](link-to-license-file). Feel free to use, modify, and distribute it according to the terms of the license.
 
-Get ready to transform your living spaces with Virtual-ID! 
+Get ready to transform your living spaces with Virtual-ID!
