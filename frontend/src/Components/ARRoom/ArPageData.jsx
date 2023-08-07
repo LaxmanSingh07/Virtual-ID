@@ -6,19 +6,19 @@ import { FiDroplet } from "react-icons/fi";
 function ArPageData() {
   const dataAr = [
     {
-      icon: <RiPlantLine size={30} />,
+      icon: <RiPlantLine size={32} />,
       desc: "Immerse Yourself in Virtual Design",
     },
     {
-      icon: <BsSun size={30} />,
+      icon: <BsSun size={32} />,
       desc: "Personalized Interior Design Journey",
     },
     {
-      icon: <FaTemperatureLow size={30} />,
+      icon: <FaTemperatureLow size={32} />,
       desc: "Seamless Room Integration",
     },
     {
-      icon: <FiDroplet size={30} />,
+      icon: <FiDroplet size={32} />,
       desc: "Collaborate and Share",
     },
   ];
@@ -26,9 +26,9 @@ function ArPageData() {
   return (
     <>
       {dataAr.map((data) => (
-        <div className="flex gap-3" key={data.desc}>
+        <div className="flex gap-4" key={data.desc}>
           <span>{data.icon}</span>
-          <p>{data.desc}</p>
+          <p className="text-lg font-semibold">{data.desc}</p>
         </div>
       ))}
     </>
