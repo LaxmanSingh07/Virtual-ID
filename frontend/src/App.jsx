@@ -7,10 +7,10 @@ import Template from "./Pages/Template";
 
 function App() {
   const routes = [
-    { path: "/", page: <Home /> },
-    { path: "/ar-room", page: <ARRoom /> },
-    { path: "/2d-room", page: <DimRoom /> },
-    { path: "*", page: <ErrorPage /> },
+    { id: 0, path: "/", page: <Home /> },
+    { id: 1, path: "/ar-room", page: <ARRoom /> },
+    { id: 2, path: "/2d-room", page: <DimRoom /> },
+    { id: 3, path: "*", page: <ErrorPage /> },
   ];
 
   return (
@@ -18,7 +18,7 @@ function App() {
       <Routes>
         <Route element={<Template />}>
           {routes.map((route) => (
-            <Route path={route.path} element={route.page} />
+            <Route path={route.path} element={route.page} key={route.id} />
           ))}
         </Route>
       </Routes>

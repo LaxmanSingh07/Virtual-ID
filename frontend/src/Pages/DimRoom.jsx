@@ -1,7 +1,7 @@
 import React from "react";
 
 function DimRoom() {
-  return <div></div>;
+  return <div>DimRoom</div>;
 }
 
 export default DimRoom;

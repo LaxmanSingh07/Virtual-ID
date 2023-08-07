@@ -1,4 +1,3 @@
-import React from "react";
 import HeroSection from "../Components/Hero/HeroSection";
 import MiddleOne from "../Components/MiddleOne";
 import ToARRoom from "../Components/ToARRoom";
@@ -18,7 +17,7 @@ function Home() {
         <To2DRoom />
       </div>
       {/* Hero-End */}
-      <div class="flex justify-center text-2xl font-bold my-10">
+      <div className="flex justify-center text-2xl font-bold my-10">
         Transform your space with ease. Start designing now!
       </div>
     </>
