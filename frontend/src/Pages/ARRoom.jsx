@@ -12,7 +12,7 @@ function ARRoom() {
             augmented reality using your camera.
           </p>
         </div>
-        <div className=" grid  grid-cols-2 grid-rows-2 gap-4">
+        <div className=" grid grid-cols-2 grid-rows-2 gap-4">
           {<ArPageData />}
         </div>
       </div>
@@ -24,3 +24,4 @@ function ARRoom() {
 }
 
 export default ARRoom;
+
