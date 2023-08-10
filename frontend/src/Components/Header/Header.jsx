@@ -3,7 +3,7 @@ function Header() {
     <nav className="w-screen py-4 left-0">
       <div className="flex items-center justify-between p-2">
         {/* Left */}
-        <div className="ml-10 self-center text-lg font-semibold whitespace-nowrap">
+        <div className="ml-10 self-center text-xl whitespace-nowrap font-bold">
           Virutal ID
         </div>
         {/* Middle */}
