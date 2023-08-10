@@ -3,12 +3,6 @@ import { TbPointFilled } from "react-icons/tb";
 import { BiArrowFromTop } from "react-icons/bi";
 
 function MiddleOne() {
-  const arrowStyle = {
-    fontSize: "36px", // Adjust the font size for height
-    fontWeight: "bold", // Add boldness
-    transform: "rotate(180deg)", // Rotate the arrow vertically
-  };
-
   return (
     <ul className="p-24 flex flex-col md:flex-row gap-6 justify-between bg-transparent">
       <li className="flex gap-4 px-4 py-2 font-normal">
