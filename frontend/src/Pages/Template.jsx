@@ -5,9 +5,9 @@ import Footer from "../Components/Footer/Footer";
 
 function Template() {
   return (
-    <div className="w-full bg-gray-900">
+    <div className="w-full bg-black">
       <Header />
-      <div className="px-4">
+      <div className="px-4 bg-gray-900">
         <Outlet />
       </div>
       <Footer />

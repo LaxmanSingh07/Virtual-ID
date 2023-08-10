@@ -17,7 +17,7 @@ function Home() {
         <To2DRoom />
       </div>
       {/* Hero-End */}
-      <div className="flex justify-center text-2xl font-bold my-10">
+      <div className="flex justify-center text-2xl font-bold my-14 font-mono">
         Transform your space with ease. Start designing now!
       </div>
     </>
