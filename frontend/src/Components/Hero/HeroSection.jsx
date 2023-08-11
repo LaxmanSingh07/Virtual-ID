@@ -2,11 +2,11 @@ import React from "react";
 
 function HeroSection() {
   return (
-    <section class="bg-gray-900 py-10 lg:mb-32">
-      <div class="py-10 md:py-16 lg:py-10 px-4 md:px-8 lg:px-16 flex flex-col justify-center text-center">
-        <h1 class="mb-2 md:mb-4 lg:mb-6 md:px-24 text-5xl md:text-6xl font-extrabold tracking-tight leading-none md:text-center text-white">
+    <section class="py-10 lg:mb-32 z-10 ">
+      <div class="py-10 md:py-16 lg:py-10 px-4 md:px-8 lg:px-16 flex flex-col justify-center text-center ">
+        <div class="mb-2 md:mb-4 lg:mb-6 md:px-24 text-5xl md:text-6xl font-bold tracking-tight leading-none md:text-center text-white">
           Revolutionize your interior design with Augmented Reality
-        </h1>
+        </div>
         <p class="py-6 md:py-0 px-6 :px-4 text-lg md:text-lg lg:text-xl font-normal text-gray-500 md:text-center dark:text-gray-200">
           <span class="text-green-500 font-semibold">
             Are you transforming your living space?

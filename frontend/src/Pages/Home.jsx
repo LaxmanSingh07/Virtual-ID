@@ -6,10 +6,10 @@ import To2DRoom from "../Components/To2DRoom";
 function Home() {
   return (
     <>
-      <div>
+      <div className="bg-hero-image bg-cover bg-center  mr-4 md:h-[550px] md:mx-8 " >
         <HeroSection />
       </div>
-      <div>
+      <div >
         <MiddleOne />
       </div>
       <div className="flex flex-col p-2 md:p-20 m-10 space-y-32">
