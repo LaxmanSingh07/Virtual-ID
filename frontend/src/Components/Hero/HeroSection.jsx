@@ -1,54 +1,30 @@
+import React from "react";
+
 function HeroSection() {
   return (
-    <section className="bg-white dark:bg-gray-900 mb-32">
-      <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 relative">
-        {/* <a
-          href="#"
-          className="inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-blue-700 bg-blue-100 rounded-full dark:bg-blue-900 dark:text-blue-300 hover:bg-blue-200 dark:hover:bg-blue-800"
-        >
-          <span className="text-xs bg-blue-600 rounded-full text-white px-4 py-1.5 mr-3">
-            New
-          </span>{" "}
-          <span className="text-sm font-medium">
-            Jumbotron component was launched! See what's new
-          </span>
-          <svg
-            className="w-2.5 h-2.5 ml-2"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 6 10"
-          >
-            <path
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="m1 9 4-4-4-4"
-            />
-          </svg>
-        </a> */}
-        <h1 className="mb-4 text-2xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+    <section class="bg-gray-900 py-10 lg:mb-32">
+      <div class="py-10 md:py-16 lg:py-10 px-4 md:px-8 lg:px-16 flex flex-col justify-center text-center">
+        <h1 class="mb-2 md:mb-4 lg:mb-6 md:px-24 text-5xl md:text-6xl font-extrabold tracking-tight leading-none md:text-center text-white">
           Revolutionize your interior design with Augmented Reality
         </h1>
-        <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-200">
-          <span className="text-green-500 font-semibold">
+        <p class="py-6 md:py-0 px-6 :px-4 text-lg md:text-lg lg:text-xl font-normal text-gray-500 md:text-center dark:text-gray-200">
+          <span class="text-green-500 font-semibold">
             Are you transforming your living space?
           </span>{" "}
           Our innovative augmented reality technology lets you design your dream
           room with ease. Experiment with our endless combinations of items.
         </p>
-        {/* <form className="w-full max-w-md mx-auto">
+        {/* <form class="w-full max-w-md mx-auto">
           <label
             for="default-email"
-            className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
+            class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
           >
             Email sign-up
           </label>
-          <div className="relative">
-            <div className="absolute inset-y-0 left-0 flex items-center pl-3.5 pointer-events-none">
+          <div class="relative">
+            <div class="absolute inset-y-0 left-0 flex items-center pl-3.5 pointer-events-none">
               <svg
-                className="w-4 h-4 text-gray-500 dark:text-gray-400"
+                class="w-4 h-4 text-gray-500 dark:text-gray-400"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -61,13 +37,13 @@ function HeroSection() {
             <input
               type="email"
               id="default-email"
-              className="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-white focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              class="block w-full p-3 md:p-4 text-sm md:text-base text-gray-900 border border-gray-300 rounded-lg bg-white focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               placeholder="Enter your email here..."
               required
             />
             <button
               type="submit"
-              className="text-white absolute right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              class="mt-2 md:mt-0 ml-0 md:ml-2 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm md:text-base px-3 md:px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
               Sign up
             </button>
