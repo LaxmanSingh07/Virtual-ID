@@ -16,9 +16,7 @@ function ARRoom() {
           {<ArPageData />}
         </div>
       </div>
-      <div className="flex justify-evenly items-center gap-3 py-12 mb-8">
-        {<ArMain />}
-      </div>
+      <ArMain />
     </div>
   );
 }
